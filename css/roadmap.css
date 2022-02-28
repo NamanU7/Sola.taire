@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    padding: 10em 4em;
+
+}
+
+section > .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline ul li{
+    padding: 1.2em;
+    background: red;
+    color: white;
+    border-radius: 0.7em;
+    margin-bottom: 1.5em;
+}
+
+.timeline ul li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-content h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+
+}
+
+.timeline-content p {
+    font-size: 1em;
+    line-height: 2em;
+}

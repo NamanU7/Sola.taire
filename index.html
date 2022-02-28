@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solataire</title>
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS & JS links -->
     <link rel="stylesheet" href="css/main.css">
     <script defer src="js/header.js"></script>
     <script defer src="js/mobileButton.js"></script>
@@ -13,10 +18,32 @@
 
 <body>
     <div class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Sola.<span class="logo-taire">taire</span>
+            </a>
 
+            <img id="mobile-cta" class="mobile-menu" src="assets/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="assets/close.svg" alt="Exit Navigation">
+
+                <ul class="primary-nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="faqs-section">FAQs</a></li>
+                    <li><a href="roadmap-section">Roadmap</a></li>
+                </ul>
+
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Community</a></li>
+                    <li class="mint-cta"><a href="#">Mint</a></li>
+                </ul>
+
+            </nav>
+        </div>
     </div>
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="container">
             <div class="left-col">
                 <p class="subhead">The <span class="future">future</span> is <span class="now">now</span></p>
@@ -32,7 +59,7 @@
         </div>
     </section>
 
-    <!-- <section class="features-section">
+    <section class="features-section" id="faqs-section">
         <div class="container">
             <ol class="features-list">
                 <li>Solana Blockchain</li>
@@ -45,9 +72,54 @@
 
             <img src="assets/bahamas.jpg" alt="Picture Of The Bahamas">
         </div>
-    </section> -->
+    </section>
 
-    <section class="team-section">
+    <section class="roadmap-section" id="roadmap-section">
+        <div class="container">
+            <div class="timeline">
+                <ul>
+                    <li>
+                        <div class="timeline-content">
+                            <h2 class="date">Janaury 1st, 2022</h2>
+                            <h1>Heading 1</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum ipsa nulla
+                                repudiandae
+                                voluptate odio est quia repellendus minima sunt?</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h2 class="date">Janaury 1st, 2022</h2>
+                            <h1>Heading 2</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum ipsa nulla
+                                repudiandae
+                                voluptate odio est quia repellendus minima sunt?</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h2 class="date">Janaury 1st, 2022</h2>
+                            <h1>Heading 3</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum ipsa nulla
+                                repudiandae
+                                voluptate odio est quia repellendus minima sunt?</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h2 class="date">Janaury 1st, 2022</h2>
+                            <h1>Heading 4</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum ipsa nulla
+                                repudiandae
+                                voluptate odio est quia repellendus minima sunt?</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section" id="team-section">
         <div class="container">
             <ul>
                 <li>
@@ -64,7 +136,7 @@
         </div>
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact-section">
         <div class="container">
             <div class="contact-left">
                 <h2>Questions, Comments, Concerns</h2>
